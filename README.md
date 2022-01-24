@@ -1,0 +1,2 @@
+# team-profile-generator
+This is a homework assignment from the UCF Full-Stack Coding Bootcamp. In this project, I am assigned with creating a Node.js command-line application that takes info about employees and then dynamically generates an HTML webpage that displays summaries for each person. I will need to write ES6 classes to create an object for each employee, implement unit testing with Jest, and utilize Inquirer to collect user input.
