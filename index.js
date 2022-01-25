@@ -1,6 +1,4 @@
-const fs = require('fs');
 const inquirer = require('inquirer');
-const { listenerCount } = require('process');
 
 runInquirer = async () => {
     const response = await inquirer.prompt([
