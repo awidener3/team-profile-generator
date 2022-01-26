@@ -1,24 +1,29 @@
 const inquirer = require('inquirer');
-const Choice = require('inquirer/lib/objects/choice');
+const Manager = require('./lib/Manager');
+const Engineer = require('./lib/Engineer');
+const Intern = require('./lib/Intern');
 const { managerQuestions, engineerQuestions, internQuestions, queryQuestion } = require('./questions')
 
 menu = () => {
 
     createManager = async () => {
         const response = await inquirer.prompt(managerQuestions);
-        console.log(response);
+        const manager = new Manager(response.name, response.id, response.email, response.officeNumber);
+        console.log(manager);
         queryNext();
     }
 
     createEngineer = async () => {
         const response = await inquirer.prompt(engineerQuestions);
-        console.log(response);
+        const engineer = new Engineer(response.name, response.id, response.email, response.github);
+        console.log(engineer);
         queryNext();
     }
 
     createIntern = async () => {
         const response = await inquirer.prompt(internQuestions);
-        console.log(response);
+        const intern = new Intern(response.name, response.id, response.email, response.school);
+        console.log(intern);
         queryNext();
     }
 
