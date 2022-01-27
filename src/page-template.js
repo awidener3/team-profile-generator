@@ -1,3 +1,5 @@
+
+// provides necessary html to build webpage
 buildHtml = (team) => {
     const template = `<!DOCTYPE html>
     <html lang="en">
@@ -35,6 +37,7 @@ buildHtml = (team) => {
     return template;
 }
 
+// based on number of team members in the team array, builds a card with relevant information
 buildCards = (team) => {
     let str = '';
     team.forEach(member => {
@@ -57,6 +60,7 @@ buildCards = (team) => {
     return str;
 }
 
+// gets the appropriate icon based on team members role
 getIcon = (role) => {
     let icon = '';
     switch (role) {
@@ -75,6 +79,7 @@ getIcon = (role) => {
     return icon;
 }
 
+// gets the last list item from the members constructor
 getInfo = (member) => {
     let li = '';
     switch (member.getRole()) {
@@ -92,6 +97,5 @@ getInfo = (member) => {
 
     return li;
 }
-
 
 module.exports = buildHtml;
