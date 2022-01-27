@@ -17,7 +17,6 @@ menu = () => {
         const manager = new Manager(response.name, response.id, response.email, response.officeNumber);
         // console.log(manager);
         team.push(manager);
-        console.log(team);
         queryNext();
     }
 
@@ -27,7 +26,6 @@ menu = () => {
         const engineer = new Engineer(response.name, response.id, response.email, response.github);
         // console.log(engineer);
         team.push(engineer);
-        console.log(team);
         queryNext();
     }
 
@@ -37,7 +35,6 @@ menu = () => {
         const intern = new Intern(response.name, response.id, response.email, response.school);
         // console.log(intern);
         team.push(intern);
-        console.log(team);
         queryNext();
     }
 

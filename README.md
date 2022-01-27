@@ -1,5 +1,48 @@
-# team-profile-generator
-This is a homework assignment from the UCF Full-Stack Coding Bootcamp. In this project, I am assigned with creating a Node.js command-line application that takes info about employees and then dynamically generates an HTML webpage that displays summaries for each person. I will need to write ES6 classes to create an object for each employee, implement unit testing with Jest, and utilize Inquirer to collect user input.
+# 📝 Homework #8: Team Profile Generator
+
+## 🔨 Task
+To create a Node.js command-line application that allows a user to enter information on their development team and returns a webpage with the information they entered dynamically added. This project utilizes the Inquirer package to prompt the user, including input validation and question sets dependent on the users answers. It also uses ES6 classes to create objects based off the information entered. 
+
+This application is complete with testing by the Jest package.
+
+## 📎 How to Use
+Make a directory on your computer and clone this repository into it. In the terminal for the project directory, run `npm install` to download the Inquirer and Jest packages. 
+
+Once you are ready to run the program, enter `npm start` in the terminal, and answer the on-screen questions. Once you end the program, wait to see if you received a confirmation message declaring that your webpage is ready. If so, navigate to the `/dist` folder where you will find an `index.html` and `style.css` file. Double check that all of your information is correct, then you are done!
+
+## 🔍 Preview
+
+
+## 📷 Screenshots
+1. Initialize the application with `npm start`:
+   
+![initializing the program](images/usage-1.png)
+   
+2. Initializing the application immediately prompts with information for the Manager, then prompts for what to do next:
+   
+![prompts for manager](images/usage-2.png)
+
+3. Selecting 'Engineer' gives a series of prompts specific to the engineer:
+
+![selecting engineer](images/usage-3.png)
+
+4. Selecting 'Intern' is the same, you receive specific prompts for an intern:
+
+![selecting intern](images/usage-4.png)
+
+5. Receiving confirmation of no errors and webpage being made:
+   
+![response confirmation](images/usage-5.png)
+
+6. Generated files in the `/dist` folder:
+
+![generated files](images/usage-6.png)
+
+7. Preview of generated file:
+
+![file preview](images/usage-7.png)
+
+
 
 ## User Story
 
