@@ -11,6 +11,8 @@ Make a directory on your computer and clone this repository into it. In the term
 Once you are ready to run the program, enter `npm start` in the terminal, and answer the on-screen questions. Once you end the program, wait to see if you received a confirmation message declaring that your webpage is ready. If so, navigate to the `/dist` folder where you will find an `index.html` and `style.css` file. Double check that all of your information is correct, then you are done!
 
 ## 🔍 Preview
+https://user-images.githubusercontent.com/70721378/151374262-1064a079-d73a-403c-81bb-49e2bf5319bd.mp4
+
 
 
 ## 📷 Screenshots
