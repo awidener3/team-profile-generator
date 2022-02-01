@@ -1,9 +1,9 @@
 # 📝 Homework #8: Team Profile Generator
 
 ## 🔨 Task
-To create a Node.js command-line application that allows a user to enter information on their development team and returns a webpage with the information they entered dynamically added. This project utilizes the Inquirer package to prompt the user, including input validation and question sets dependent on the users answers. It also uses ES6 classes to create objects based off the information entered. 
+To create a Node.js command-line application that allows a user to enter information on their development team and returns a webpage with the information they entered dynamically added. This project utilizes the [Inquirer](https://github.com/SBoudrias/Inquirer.js#readme) package to prompt the user, including input validation and question sets dependent on the users answers. It also uses ES6 classes to create objects based off the information entered. 
 
-This application is complete with testing by the Jest package.
+This application is complete with testing by the [Jest](https://jestjs.io/docs/getting-started) package.
 
 ## 📎 How to Use
 Make a directory on your computer and clone this repository into it. In the terminal for the project directory, run `npm install` to download the Inquirer and Jest packages. 
@@ -12,8 +12,6 @@ Once you are ready to run the program, enter `npm start` in the terminal, and an
 
 ## 🔍 Preview
 https://user-images.githubusercontent.com/70721378/151374262-1064a079-d73a-403c-81bb-49e2bf5319bd.mp4
-
-
 
 ## 📷 Screenshots
 1. Initialize the application with `npm start`:
