@@ -51,7 +51,7 @@ buildCards = (team) => {
                 </div>
                 <div class="list-group list-group-flush">
                     <li class="list-group-item">ID: ${member.getId()}</li>
-                    <li class="list-group-item">Email: ${member.getEmail()}</li>
+                    <li class="list-group-item">Email: <a href="mailto:member.getEmail()">${member.getEmail()}</a></li>
                     ${getInfo(member)}
                 </div>
             </div>
